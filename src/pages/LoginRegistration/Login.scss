@@ -1,0 +1,58 @@
+$myColor: red;
+$fontfamily:"Whitney",sans-serif ;
+
+*{
+  font-family: $fontfamily;
+}
+.login_form{
+  width: 100%;
+  text-align: -webkit-center !important;
+}
+.login_form .or{
+  width: 100%;
+  text-align: center !important;
+  padding: 15px 10px;
+  color: #a0aec0;
+}
+.login_title h1{
+  text-align: right !important;
+  font-family: $fontfamily !important;
+  color:#1b254b
+}
+.login_title span{
+  color:#a0aec0 ;
+}
+.login_with_gmail{
+  width: 100% !important;
+  margin: 10px 0px;
+  justify-content: center !important;
+  background:#f4f7fe !important;
+  box-shadow:none !important;
+  border-radius: 16px !important;
+}
+.login_with_gmail div{
+  background: none !important;
+}
+.login_txt_feild .MuiFilledInput-root{
+  background: #f4f7fe !important;
+  border-radius: 16px !important;
+}
+.login_txt_feild .css-ykm6b4-MuiInputBase-root-MuiFilledInput-root:before{
+  border: none !important;
+}
+.login_txt_feild .css-u26a0n-MuiInputBase-root-MuiFilledInput-root:before{
+  border: none !important;
+}
+.login_btn{
+  background-color: #422afb !important;
+  color: #ffffff !important;
+  border-radius: 16px !important;
+  padding:9px 16px;
+}
+.coursor{
+  cursor: pointer;
+}
+.forPass{
+  cursor: pointer;
+  color: #422afb;
+}
