@@ -2,7 +2,29 @@ module.exports = {
   parser: "@typescript-eslint/parser",
   extends: ["plugin:@typescript-eslint/recommended", "prettier"],
   rules: {
-    "no-console": "off",
+    "no-console": 0,
+    "indent": [
+            2,
+            "tab",
+        ],
+        "quotes": [
+            2,
+            "single",
+        ],
+        "linebreak-style": [
+            2,
+            "unix",
+        ],
+        "semi": [
+            2,
+            "always",
+        ],
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+    },
+    "extends": "eslint:recommended",
     "prettier/prettier": [
       "error",
       {

@@ -13,6 +13,7 @@ import localizedFormat from 'dayjs/plugin/localizedFormat';
 import Layout from './components/Layout';
 import { SnackbarProvider } from 'notistack';
 import { SnackbarUtilsConfigurator } from './helpers/SnackbarUtils';
+import DataTable from './pages/Data-Table/DataTable';
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -50,6 +51,12 @@ const App = () => {
               <Layout>
                 <Route path="/login">
                   <LoginRegistration login />
+                </Route>
+                <Route path="/dashboard">
+                  <Dashboard />
+                </Route>
+                <Route path="/datatable">
+                  <DataTable />
                 </Route>
                 {
                   //<Route path="/register">

@@ -56,6 +56,32 @@ const Sidebar: FC<Props> = ({ mobileOpen, handleDrawerToggle }) => {
   const drawer = (
     <>
       <Toolbar />
+      <Divider />
+      <List>
+        <ListItem
+          button
+          selected={history.location.pathname.includes('dashboard')}
+          onClick={() => openPathAndCloseDrawer('/dashboard')}
+        >
+          <ListItemIcon>
+            <DashboardIcon />
+          </ListItemIcon>
+          <ListItemText primary="Dashboard" />
+        </ListItem>
+      </List>
+      <Divider />
+      <List>
+        <ListItem
+          button
+          selected={history.location.pathname.includes('datatable')}
+          onClick={() => openPathAndCloseDrawer('/datatable')}
+        >
+          <ListItemIcon>
+            <DashboardIcon />
+          </ListItemIcon>
+          <ListItemText primary="Data Tables" />
+        </ListItem>
+      </List>
       {userStore.isLoggedIn ? (
         <>
           <Divider />

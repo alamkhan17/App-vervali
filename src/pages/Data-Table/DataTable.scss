@@ -1,0 +1,98 @@
+.table_container {
+  max-height: 420px !important;
+  /* overflow-x: hidden !important; */
+  /* overflow-y: hidden !important; */
+
+  border-bottom: 0.5px solid #c9c9c9 !important;
+}
+.table_container_nodata {
+  overflow-y: hidden !important;
+}
+.table_container::-webkit-scrollbar:horizontal {
+  /* display: none !important; */
+  height: 0.4rem !important;
+}
+.MuiTableCell-stickyHeader {
+  background-color: #ffffff !important;
+}
+.MuiSelect-select {
+  height: 40px !important;
+  width: 52.96px;
+  background-color: #fefefe !important;
+  color: #b6b6b6 !important;
+  border: 1px solid #c9c9c9 !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+  font-size: 18px !important;
+}
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.MuiSelect-select {
+  height: 40px !important;
+}
+.css-pdct74-MuiTablePagination-selectLabel {
+  display: none !important;
+}
+
+.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input.css-194a1fa-MuiSelect-select-MuiInputBase-input {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.css-1cccqvr.css-1cccqvr.css-1cccqvr {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.css-11bfvty-MuiToolbar-root-MuiTablePagination-toolbar {
+  margin: 15px 0px 5px 0px !important;
+}
+.MuiTablePagination-actions {
+  height: 40px;
+  background-color: #fefefe !important;
+  color: #b6b6b6 !important;
+  border: 1px solid #c9c9c9 !important;
+  border-radius: 5px !important;
+  box-sizing: border-box !important;
+}
+.data_tbl_head_row th {
+  color: #666666 !important;
+  font-family: "Whitney", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 17px !important;
+}
+.data_tbl_body_row td {
+  color: #898989 !important;
+  background: "none";
+  font-family: "Whitney", sans-serif !important;
+  font-weight: normal !important;
+  font-size: 14px !important;
+  border: none !important;
+  margin: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 10px !important;
+}
+.data_tbl_body_row .InnerColorCode {
+  color: blue !important;
+}
+.css-11bfvty-MuiToolbar-root-MuiTablePagination-toolbar p {
+  color: #b6b6b6 !important;
+}
+.no_data_found {
+  width: 100% !important;
+  align-items: center !important;
+}
+.no_data_found p {
+  text-align: center !important;
+}
+.data_tbl_body_row .tbl_id {
+  color: #666666 !important;
+  text-transform: none !important;
+  margin-left: -5px;
+}
+.data_tbl_body_row .tbl_id1 {
+  color: #666666 !important;
+  text-transform: none !important;
+  margin-left: -1px;
+}
+.MuiCircularProgress-root {
+  color: #7c4dff !important;
+}

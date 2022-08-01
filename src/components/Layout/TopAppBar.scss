@@ -1,0 +1,41 @@
+.TopAppBar{
+    margin-top:10px !important;
+    padding: 5px 0px !important;
+    border-radius: 50px !important;
+    background: rgba(244, 247, 254, 0.2) !important;
+    backdrop-filter: blur(20px) !important;
+    box-shadow: none !important;
+}
+.top_app_left_side span{
+    font-size: 30px !important;
+    margin: 0px;
+    color: #1b254b;
+}
+.top_app_search_div{
+    display: flex !important;
+    align-items: center !important;
+    justify-content:space-between !important;
+    width: 350px;
+    height: 50px !important;
+    background: #ffffff !important;
+    border-radius: 50px !important;
+    color: #a0aec0 ;
+    padding: 5px 10px !important;
+    box-shadow: 14px 17px 40px 4px rgb(112 144 176 / 18%);
+}
+.top_app_search_div .MuiTextField-root{
+    border: none !important;
+}
+.top_app_search_div .css-ylhqvq-MuiInputBase-root-MuiInput-root:before{
+    border: none !important;
+}
+.top_app_search_div .css-ylhqvq-MuiInputBase-root-MuiInput-root.Mui-focused:after{
+    border: none !important;
+    transform: none;
+}
+.top_search_feild{
+    border-radius:50px !important;
+    border: none !important;
+    background:#f4f7fe !important;
+    padding: 5px 3px !important;
+}
