@@ -23,7 +23,7 @@ const DataTable: FC = () => {
     setPage(0);
   };
   return (
-    <div>
+    <div className="tbl_main_div">
       <TableContainer className="table_container">
         <Table stickyHeader aria-label="sticky table">
           <TableHead className="data_tbl_head_row">

@@ -1,0 +1,24 @@
+.dashboard_card{
+    background: #ffffff !important;
+    border-radius: 20px !important;
+    padding: 15px !important;
+    height: 80px !important;
+    flex-direction: row !important;
+    display: flex !important;
+    align-items: center !important;
+}
+.dashboard_card .img_div img{
+    height: 80px !important;
+    width: 70px !important;
+    margin: 0px !important;
+}
+.dashboard_card .title_div p{
+    margin: 2px 0px !important;
+    color: #1b2559 !important;
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+}
+.dashboard_card .title_div span{
+   color: #a3aed0 !important;
+   font-size: 14px !important;
+}

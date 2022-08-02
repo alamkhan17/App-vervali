@@ -4,7 +4,7 @@ import { RouteProps, Redirect, Route } from 'react-router-dom';
 
 const PrivateRoute: FC<RouteProps> = (props) => {
   const userStore = useUserStore();
-  return userStore.isLoggedIn ? <Route {...props} /> : <Redirect to="/login" />;
+  return userStore.isLoggedIn ? <Route {...props} /> : <Redirect to="/dashboard" />;
 };
 
 export default PrivateRoute;
