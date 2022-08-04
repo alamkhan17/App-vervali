@@ -14,6 +14,7 @@ import Layout from './components/Layout';
 import { SnackbarProvider } from 'notistack';
 import { SnackbarUtilsConfigurator } from './helpers/SnackbarUtils';
 import DataTable from './pages/Data-Table/DataTable';
+import Profile from './pages/Profile/Profile';
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -57,6 +58,9 @@ const App = () => {
                 </Route>
                 <Route path="/datatable">
                   <DataTable />
+                </Route>
+                <Route path="/profile">
+                  <Profile />
                 </Route>
                 {
                   //<Route path="/register">

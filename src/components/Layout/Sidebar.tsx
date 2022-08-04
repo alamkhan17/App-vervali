@@ -82,6 +82,19 @@ const Sidebar: FC<Props> = ({ mobileOpen, handleDrawerToggle }) => {
           <ListItemText primary="Data Tables" />
         </ListItem>
       </List>
+      <Divider />
+      <List>
+        <ListItem
+          button
+          selected={history.location.pathname.includes('profile')}
+          onClick={() => openPathAndCloseDrawer('/profile')}
+        >
+          <ListItemIcon>
+            <DashboardIcon />
+          </ListItemIcon>
+          <ListItemText primary="Profile" />
+        </ListItem>
+      </List>
       {userStore.isLoggedIn ? (
         <>
           <Divider />
